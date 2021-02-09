@@ -1,0 +1,24 @@
+#gameWorld {
+    border: 1px solid black;
+    background-color: lightgreen;
+}
+
+div div {
+    flex-grow: 1;
+    background-color: pink;
+}
+
+div div div {
+    background-color: lightblue;
+}
+
+.response {
+    color: grey;
+    background-color: lightgreen;
+}
+
+.response:hover {
+    color: black;
+    background-color: lightgreen;
+}
+

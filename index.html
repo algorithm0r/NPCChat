@@ -1,0 +1,41 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>NPC Chat Demo</title>
+    <link type="text/css" rel="stylesheet" href="./style.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Press+Start+2P">
+    <style>
+        body {
+            font-family: 'Press Start 2P', serif;
+            font-size: 24px;
+        }
+    </style>
+    <script type="text/javascript" src="./util.js"></script>
+    <script type="text/javascript" src="./assetmanager.js"></script>
+    <script type="text/javascript" src="./timer.js"></script>
+    <script type="text/javascript" src="./gameengine.js"></script>
+    <script type="text/javascript" src="./animator.js"></script>
+    <script type="text/javascript" src="./footman.js"></script>
+    <script type="text/javascript" src="./archer.js"></script>
+    <script type="text/javascript" src="./chats.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+</head>
+<body>
+    <div class="container" style="display: flex; width: 1200px">
+        <canvas id="gameWorld" width ="600" height ="600" tabindex="1" autofocus></canvas>
+        <div>
+            <div class="chat" id="message"></div>
+            <div class="response" id="response1"></div>
+            <div class="response" id="response2"></div>
+            <div class="response" id="response3"></div>
+        </div>
+    </div>
+        <div>
+        <br />
+        <input type="checkbox" id="debug" > Debug
+    </div>
+</body>
+</html>
