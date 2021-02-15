@@ -39,7 +39,7 @@ function getFacing(velocity) {
     if (-0.875 < angle && angle < -0.625) return 7;
 };
 
-var currentChat
+var currentChat;
 function loadChat(chat) {
     if (!chat) chat = {
         message: "", resp1: { text: "" }, resp2: { text: "" }, resp3: { text: "" } };

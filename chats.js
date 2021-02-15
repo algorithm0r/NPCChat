@@ -18,7 +18,7 @@ var alice = [{
         next: {
             message: "Alice: Great! One of them only lies and the other only tells the truth.  I'm trying to figure out which is which.  You should speak to them to find out.",
             resp1: { text: "Alright.  I'll be right back.", state: 1 },
-            resp2: { text: "Good-bye." },
+            resp2: { text: "Good-bye.", state: 1 },
             resp3: { text: "" }
         }
     },
